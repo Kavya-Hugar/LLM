@@ -58,7 +58,7 @@ const PORT = config.port || 3000;
 
 const server = app.listen(PORT, () => {
   console.log(`🚀 AI LMS Backend Server running on port ${PORT}`);
-  console.log(`📚 Environment: ${config.nodeEnv}`);
+  console.log(`� Environment: ${config.nodeEnv}`);
   console.log(`🔗 Health check: http://localhost:${PORT}/api/health`);
   console.log(`📖 API docs: http://localhost:${PORT}/api`);
 });

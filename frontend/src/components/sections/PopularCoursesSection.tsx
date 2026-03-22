@@ -112,7 +112,7 @@ export default function PopularCoursesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="glass-card overflow-hidden group cursor-pointer hover:shadow-lg transition-shadow duration-300"
+              className="glass-card overflow-hidden group cursor-pointer"
             >
               {/* Course thumbnail */}
               <div className="relative h-48 bg-gradient-to-br from-primary-100 to-primary-200 overflow-hidden">
